@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    background-color: #ffcc99;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: #000033;
+    text-shadow:5px 1px 2px rgba(150,150,150);
+      
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+td {
+    width: 30px;
+    border-radius: 10px;
+}
+
+input[type=number] {
+    width: 4em;
+    height: 2em;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius:3px;
+     
+}
+
+#create {
+  background: #996666;
+  width: 100px;
+  height: 37px;
+  padding: 6px;
+  border-radius: 6px;
+  border-color: #cc6699;
+ box-shadow:  -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.48);
+-moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.48);
+box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.48);
+}
+
+#create:hover {
+  cursor: pointer;
+}
+#create:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.4;
+  bottom: -30px;
+}
+
+input[type = submit]{
+    font-size:16px;
+    font-weight: bold;
+
+}
+
+.custom_colors{
+    margin: 0 auto 15px auto;
+}
+
+.custom_colors div {
+    display: inline-block;
+    border: 3px double #666633;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#black {
+    background-color: black;
+}
+
+#white {
+    background: white;
+}
+
+#red {
+    background: red;
+}
+
+#pink {
+    background: pink;
+}
+#yellow {
+    background: yellow;
+}
+
+#purple {
+    background: purple;
+}
+
+#maroon {
+    background: #85144b;
+}
